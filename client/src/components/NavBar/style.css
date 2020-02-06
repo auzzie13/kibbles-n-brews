@@ -1,0 +1,95 @@
+#nav-toggle-state {
+    display: none;
+  }
+  
+  #nav-toggle-state:checked ~ .navbar-menu {
+    display: block;
+  }
+
+  .is-hoverable {
+    color: #363636;
+
+  }
+  .navbar-link:not(.is-arrowless)::after{
+    border-color:black;
+  }
+
+  #navbar-brand, #navbarBasicExample,#navbar-item, #signButton {
+    background-color:whitesmoke;
+    color: #815832;
+
+  }
+
+  #sign-up{
+    background-color: white;
+    color: #815832;
+    font-weight: bolder;
+    border: solid 1px  white;
+    border-radius:5px;
+
+  }
+#log-in{
+    background-color: white;
+    color: #815832;
+    font-weight: bolder;
+    border: solid 1px  white;
+    border-radius: 5px;
+
+}
+#submitButton, #sign-up {
+  background-color: white;
+  color: #815832;
+  font-weight: bolder;
+  border: solid 1px  white;
+  margin: 17.4px;
+  position: relative;
+  width: 130px;
+  height: 52.2px;
+  cursor: pointer;
+  background: transparent;
+  outline:0;
+}
+#c1, #c2, #c3, #c4{
+  background:white;
+  height: 26.1px;
+  width: 26.1px;
+  border: 1px solid #000;
+  border-radius: 43.5%;
+  position:absolute;
+}
+#c1{
+  left: 0;
+  top: 0;
+}
+#c2{
+  right: 0;
+  top: 0;
+}
+#c3{
+  left: 0;
+  bottom: 0;
+}
+#c4{
+  bottom: 0;
+  right: 0;
+}
+#b1 {
+  background:white;
+  height: 26.1px;
+  width: 104.4px;
+  position:absolute;  
+  left: 13.05px;
+  top: 13.05px;
+  border-radius: 30px;
+}
+#b2 {
+  position: absolute;
+  left: 13.05px;
+  top: 0;
+  width: 78.3px;
+  height: 30px;
+  line-height: 26.1px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}

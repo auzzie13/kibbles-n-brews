@@ -1,0 +1,114 @@
+html {
+    background-image: url(https://images.unsplash.com/photo-1557684459-6f545f2438cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=3150&q=80);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    
+}
+
+#container{
+  width: 30%;
+  margin: auto;
+}
+
+.post-header{
+  color: blanchedalmond;
+}
+
+.label {
+    color: #815832;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.input {
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(144,147,142,.8);
+    color: #363636;
+    font-weight: bolder;
+    border: solid 1px black;
+    box-shadow: 2px 2px;
+
+}
+#options {
+    background-color: rgba(144,147,142,.8);
+    color: #363636;
+    font-weight: bolder;
+    border: solid 1px  black;
+    box-shadow: 2px 2px;
+}
+
+#textarea, #textareaDetails {
+    max-width:30%;
+    min-width:30%;
+    color: #363636;
+    font-weight: bolder;
+    border: solid 1px  black;
+    box-shadow: 1px 1px;
+
+}
+.select:not(.is-multiple):not(.is-loading)::after{
+  border-color:black;
+}
+
+
+#submitButton {
+    background-color: rgba(0,0,0,.8);
+    color: #815832;
+    font-weight: bolder;
+    border: solid 1px  rgba(0,0,0,.8);
+    margin: 20px;
+    position: relative;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+  .c1, .c2, .c3, .c4{
+    background:rgba(0,0,0,1);
+    height: 30px;
+    width: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position:absolute;
+  }
+  .c1{
+    left: 0;
+    top: 0;
+  }
+  .c2{
+    right: 0;
+    top: 0;
+  }
+  .c3{
+    left: 0;
+    bottom: 0;
+  }
+  .c4{
+    bottom: 0;
+    right: 0;
+  }
+  .b1 {
+    background:rgba(0,0,0,1);
+    height: 30px;
+    width: 120px;
+    position:absolute;  
+    left: 15px;
+    top: 15px;
+    border-radius: 30px;
+  }
+  .b2 {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+  

@@ -1,0 +1,8 @@
+#signUpNoti {
+    background-color: rgba(144, 147, 142, 0.8);
+}
+
+#fields1, #fields2, #fields3, #fields4, #fields5, #fields6, #fields7, #fields8 {
+    border:1px inset black;
+    box-shadow: 5px 5px;
+}

@@ -1,0 +1,141 @@
+.list-group-item {
+  line-height: 2.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-image: url(https://images.unsplash.com/photo-1557684459-6f545f2438cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=3150&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: whitesmoke;
+}
+
+.mr-sm-2 sr-only {
+  margin: auto;
+}
+
+#logo {
+  width: 20%;
+  height: auto;
+  margin-left: 2%;
+  opacity: 1;
+}
+
+/* .temptables {
+    border: 1px solid red;
+  } */
+
+a {
+  color: whitesmoke;
+}
+
+.heading {
+  background-color: light grey;
+  height: fit-content;
+  width: 100%;
+}
+
+.jumbotron {
+  opacity: 0.9;
+  /* border: 1px solid blue; */
+  background-color: #000000;
+}
+
+.mainContainer {
+  border: 1px solid whitesmoke;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#logout {
+  float: right;
+}
+
+#home {
+  float: right;
+}
+
+.memberClubs {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  opacity: 1;
+}
+.loginContainer {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid whitesmoke;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
+}
+.btn {
+  background-color: gray;
+  border: 1px solid black;
+}
+.signUpContainer {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid whitesmoke;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+
+.modal-backdrop {
+  display: none;
+}
+
+.modal-content {
+  background-color: black;
+  border: 1px whitesmoke solid;
+  opacity: 1;
+}
+
+.btn:hover {
+  background-color: black;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1557684459-6f545f2438cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=3150&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  color: #363636;
+}
+
+#container{
+  color: #363636;
+  font-weight: bolder;
+}
+#signInNoti{
+  background-color:rgba(144, 147, 142, 0.8);
+  max-height: 300px;
+  min-height: 40px;
+}
+
+h1 {
+  color: #815832;
+  font-weight: bold;
+  font-size: 42px;
+}
